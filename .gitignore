@@ -1,0 +1,27 @@
+# Imagem de teste (49 MB) — reconstruída deterministicamente via tests/build_image.sh
+*.dd
+tests/build/
+
+# Exports do Autopsy ao rodar o diff
+tests/*_export*.csv
+Ativo_Cripto_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Wordlists BIP-39 opcionais que o usuário pode adicionar localmente
+plugin/spanish.txt
+plugin/french.txt
+plugin/italian.txt
+plugin/czech.txt
+
+# SO / editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

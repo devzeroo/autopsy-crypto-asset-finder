@@ -1,0 +1,43 @@
+arquivo,rede,tipo,valor,validacao_esperada,token_esperado,observacao
+Users/suspeito/Desktop/notas_carteiras.txt,Bitcoin,endereco,1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa,checksum_valido,,genesis; duplicado no arquivo
+Users/suspeito/Desktop/notas_carteiras.txt,Bitcoin,endereco,3DzJgtpuW9JcGnzWfK46oytxFFFdM6XNNS,checksum_valido,,
+Users/suspeito/Desktop/notas_carteiras.txt,Bitcoin,endereco,bc1qusqnzgmgq6wa9dava250hm2grqf5ga4dd3msqm,checksum_valido,,
+Users/suspeito/Desktop/notas_carteiras.txt,Bitcoin,endereco,bc1pxldy8s78d8v87656t0zsvg39grf76qdr5ezj8esdd8fq2t3g7cxq8tsn95,checksum_valido,,taproot/bech32m
+Users/suspeito/Desktop/notas_carteiras.txt,Ethereum/EVM,endereco,0xDB2865fF67f780AB29500457ddD46Cd2f6bd5513,checksum_valido,,
+Users/suspeito/Desktop/notas_carteiras.txt,Ethereum/EVM,endereco,0xdb2865ff67f780ab29500457ddd46cd2f6bd5513,sem_checksum,,
+Users/suspeito/Desktop/notas_carteiras.txt,Cardano,endereco,addr1gtl73lnq0hvyg9zd7ehgg24gcjfuae9crx4y6h8h3uyx54xj3rsyxsvjj8204mm9rvwercdus4t78j36n7cl9c255q5s9d6ya4,checksum_valido,,
+Users/suspeito/Desktop/notas_carteiras.txt,Cardano,endereco,stake18zd6hva9r8sjn3dqrlxuu3ypmd3q6eyu50k5tkfd7lw3sq60u5s,checksum_valido,,
+Users/suspeito/Desktop/notas_carteiras.txt,Cardano (Byron),endereco,DdzXptchgszXrNavJXXypukiDF7daKkb1k15gbvBAZQ37VHixFWz9yPDZDWkxbMRnxG5myM,sem_checksum,,
+Users/suspeito/Documents/transacoes_usdt.csv,Ethereum/EVM,endereco,0xdAC17F958D2ee523a2206206994597C13D831ec7,checksum_valido,USDT (ERC-20),match por contrato
+Users/suspeito/Documents/transacoes_usdt.csv,Ethereum/EVM,endereco,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,checksum_valido,USDC (ERC-20),match por contrato
+Users/suspeito/Documents/transacoes_usdt.csv,Ethereum/EVM,endereco,0x0A529125e86bc0Aee037896c6f8a9b3664048879,checksum_valido,USDT (contexto),ticker no arquivo
+Users/suspeito/Documents/transacoes_usdt.csv,Tron,endereco,TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t,checksum_valido,USDT (TRC-20),contrato real
+Users/suspeito/Documents/altcoins.txt,Tron,endereco,TGVz4zsvMDxZXyGZufV1yD3NGWtcfwGDLn,checksum_valido,,
+Users/suspeito/Documents/altcoins.txt,Litecoin,endereco,LPXh7pJA55ZS8xXmSQrcrCSoF7N84NdJ7Z,checksum_valido,,
+Users/suspeito/Documents/altcoins.txt,Litecoin,endereco,ltc1q2t0mp0jez8z0n3fhtxz3gpz4994jm040hfc342,checksum_valido,,bech32 ltc
+Users/suspeito/Documents/altcoins.txt,Dogecoin,endereco,DGsoRDCRxMbUHfn6SxaiaK4RS71kacHMYh,checksum_valido,,
+Users/suspeito/Documents/altcoins.txt,XRP,endereco,rnxreTimq4Ssxue2SSbUevPkTF8q16NKi7,checksum_valido,,alfabeto ripple
+Users/suspeito/Desktop/chaves.txt,Bitcoin,chave_privada_WIF,5Hw5PWYq2hCZ9vLeLB3B11geHjaGsHR28b3ojQPuDy9istpTr6L,checksum_valido,,
+Users/suspeito/Desktop/chaves.txt,BIP32,chave_estendida,xprv9s21ZrQH143K3SYHzA5RiUwsyeY7yRpATcohDay58mNXorHzYHVNG7Qtf2AX59gyErD4JCMyQ8zhynwYJsLGrTnoGQ9U1jU7xt3sPNjLrBH,checksum_valido,,chave PRIVADA estendida
+Users/suspeito/Desktop/chaves.txt,BIP32,chave_estendida,xpub661MyMwAqRbcGkC3R9HTMMaEJR7t5R24bso2es5RdGgDSL8Ns5V1ZHUWpqJfQqULJ4eMaFJv8op69SNzGDgB2ztVvWvcPtkzRnf9qLEi4Eb,checksum_valido,,chave publica estendida
+Users/suspeito/Desktop/seed_backup.txt,BIP-39,seed_phrase,inch parent loud educate shock crew ancient guilt aisle mix mansion draw,bip39_checksum_valido,,
+Users/suspeito/Desktop/seed_backup.txt,BIP-39,seed_phrase,budget dilemma toy senior body surround goddess jaguar warm artwork muffin fox attract below glad entire razor salt parade daring cost air juice solar,bip39_checksum_valido,,
+Users/suspeito/Desktop/seed_backup.txt,BIP-39,seed_phrase,leisure spend vital piano bronze panic reflect connect advance gloom either spawn,bip39_palavras,,checksum invalido -> indicio
+Users/suspeito/Documents/boundary_test.bin,BIP-39,seed_phrase,simple fiction simple crater section exact owner main dinosaur sense gauge edit weekend problem kite rule access humble merry have phrase oak hedgehog wealth,bip39_checksum_valido,,STRADDLE do limite de 1 MiB: capturado na janela 2 via overlap
+Users/suspeito/AppData/Roaming/Bitcoin/wallet.dat,Carteira,arquivo_de_carteira,Bitcoin Core (wallet.dat),match_por_nome,,
+Users/suspeito/AppData/Roaming/Electrum/wallets/default_wallet,Carteira,arquivo_de_carteira,Electrum (default_wallet),match_por_nome,,
+Users/suspeito/AppData/Roaming/Exodus/exodus.wallet/seed.seco,Carteira,arquivo_de_carteira,Exodus (.seco),match_por_nome,,
+Users/suspeito/AppData/Local/Google/Chrome/User Data/Default/Local Extension Settings/nkbihfbeoofkjafdcbenoooofpidbnpl/000003.ldb,Carteira,arquivo_de_carteira,MetaMask (extensao Chrome),match_por_nome,,
+Users/suspeito/Ethereum/keystore/UTC--2024-03-01T12-00-00.000Z--ada6035674bd3c327b089e71454f759a0a9543bb,Carteira,arquivo_de_carteira,Keystore Ethereum (UTC--),match_por_nome,,
+Users/suspeito/AppData/Roaming/atomic/atomic.dat,Carteira,arquivo_de_carteira,Atomic Wallet,match_por_nome,,
+Users/suspeito/AppData/Roaming/Ledger Live/app.json,Carteira,arquivo_de_carteira,Ledger Live,match_por_nome,,
+Users/suspeito/cofre.wallet,Carteira,arquivo_de_carteira,Carteira generica (.wallet),match_por_nome,,
+Users/suspeito/AppData/Roaming/Bitcoin/wallet.dat,Bitcoin,chave_privada_WIF,5Hw5PWYq2hCZ9vLeLB3B11geHjaGsHR28b3ojQPuDy9istpTr6L,checksum_valido,,WIF embutido no conteudo do wallet.dat
+
+# NEGATIVOS - esperado AUSENTE nos resultados
+arquivo,valor,motivo
+Users/suspeito/Documents/falsos_positivos.txt,3DzJgtpuW9JcGnzWfK46oytxFFFdM6XNNT,BTC checksum invalido -> rejeitado
+Users/suspeito/Documents/falsos_positivos.txt,TGVz4zsvMDxZXyGZufV1yD3NGWtcfwGDLo,Tron checksum invalido -> rejeitado
+Users/suspeito/Documents/falsos_positivos.txt,0xdB2865fF67f780AB29500457ddD46Cd2f6bd5513,ETH EIP-55 invalido -> rejeitado
+Users/suspeito/Documents/falsos_positivos.txt,bc1qusqnzgmgq6wa9dava250hm2grqf5ga4dd3msqq,bech32 checksum invalido -> rejeitado
+Users/suspeito/Documents/falsos_positivos.txt,2i2PfWqD8yExxRKNbNfJKEv16X6Je5BWzdHTQSAYmzX6,Solana: detector desativado (ENABLE_SOLANA=False)
