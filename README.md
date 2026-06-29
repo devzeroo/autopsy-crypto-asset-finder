@@ -183,5 +183,5 @@ metadados internos do ext4 (timestamps de superbloco) entre versões do
 
 ## Autoria e licença
 
-Desenvolvido por **Daniel Lucas de Oliveira** (Blue Vault — perícia digital).
+Desenvolvido por **Daniel L. de Oliveira**.
 Licença: ver arquivo [`LICENSE`](LICENSE).
